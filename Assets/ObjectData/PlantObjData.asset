@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95b795c02aa4e54f93c774f755237f7, type: 3}
+  m_Name: PlantObjData
+  m_EditorClassIdentifier: 
+  plantDatas:
+  - name: Carrot
+    ID: 1
+    BlockPath: 0
+    Prefab: {fileID: 4317227960172635770, guid: a4eb4ae5e4de5ab4799b7c7db8e19f8e, type: 3}
+    yield: {fileID: 11400000, guid: d05e803ba502c534398e17f466a8295b, type: 2}
+    PlantingTime: 1
+    ProgressTarget:
+    - 5
+    - 15
+    - 10
+    DifferentWater: 0
+    DrainWater: 1
+    DrainWaters: []
+    NeedTemp: 1
+    IdelTemp: 25
+    PenaltyRange: 10
+    PenaltyRangeCap: 10
+    PenaltyMaxDamage: 0.5
+    HarvestTime: 1
+    BaseSellCost: 5
+    Repeatable: 0
+    BackToStage: 0
+    FixedAmount: 1
+    Amount: 4
+    MinAmount: 1
+    MaxAmount: 2
+  - name: Sugar Cane
+    ID: 2
+    BlockPath: 1
+    Prefab: {fileID: 4317227960172635770, guid: f7af3233791b89f48a6ab9c2f144e215, type: 3}
+    yield: {fileID: 11400000, guid: 1376c41dad21ea34fb3dd641c93f6d0c, type: 2}
+    PlantingTime: 2
+    ProgressTarget:
+    - 30
+    - 10
+    DifferentWater: 1
+    DrainWater: 1
+    DrainWaters:
+    - 0.5
+    - 1.5
+    NeedTemp: 1
+    IdelTemp: 25
+    PenaltyRange: 10
+    PenaltyRangeCap: 10
+    PenaltyMaxDamage: 0.5
+    HarvestTime: 0.5
+    BaseSellCost: 3
+    Repeatable: 1
+    BackToStage: 1
+    FixedAmount: 0
+    Amount: 1
+    MinAmount: 2
+    MaxAmount: 5
+  - name: Corn
+    ID: 3
+    BlockPath: 1
+    Prefab: {fileID: 4746374515796776262, guid: d148c9ba767756141a78f1fa408f0ac6, type: 3}
+    yield: {fileID: 11400000, guid: 9ef1f39297355ae41b057f84ef5eea72, type: 2}
+    PlantingTime: 1
+    ProgressTarget:
+    - 10
+    - 20
+    - 15
+    DifferentWater: 0
+    DrainWater: 2
+    DrainWaters: []
+    NeedTemp: 1
+    IdelTemp: 25
+    PenaltyRange: 10
+    PenaltyRangeCap: 10
+    PenaltyMaxDamage: 0.5
+    HarvestTime: 1
+    BaseSellCost: 2
+    Repeatable: 0
+    BackToStage: 0
+    FixedAmount: 0
+    Amount: 1
+    MinAmount: 6
+    MaxAmount: 8
+  - name: Pumpkin
+    ID: 4
+    BlockPath: 1
+    Prefab: {fileID: 8780444822614994306, guid: e68d47e0098c79f47be69b27f2c65c70, type: 3}
+    yield: {fileID: 11400000, guid: ae3907bd17fad00488e1427c7392d04f, type: 2}
+    PlantingTime: 2
+    ProgressTarget:
+    - 20
+    - 30
+    - 40
+    DifferentWater: 0
+    DrainWater: 0.5
+    DrainWaters: []
+    NeedTemp: 1
+    IdelTemp: 25
+    PenaltyRange: 10
+    PenaltyRangeCap: 10
+    PenaltyMaxDamage: 0.5
+    HarvestTime: 1
+    BaseSellCost: 50
+    Repeatable: 0
+    BackToStage: 0
+    FixedAmount: 1
+    Amount: 1
+    MinAmount: 1
+    MaxAmount: 2
